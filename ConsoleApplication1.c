@@ -197,7 +197,7 @@ void draw_game(const char* word)
    
     printf      (" |   \n");
     printf      ("_|_   \n");
-    //printf("%s\n", word);
+    //printf("%s\n", word); //testing github
     for (int i = 0; i < strlen(word); i++)
     {
             if (guessed_letters[(tolower(word[i]) - 'a')] > 0)
